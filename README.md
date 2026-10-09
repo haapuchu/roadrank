@@ -197,9 +197,7 @@ Benefit_Cost_Ratio (BCR)   = (Avoided_Escalation + Economic_Lifeline_Value) / Ca
 
 ```
 roadpulse/
-├── HACKATHON_MASTER_CONTEXT.md              # Complete hackathon rules, problem catalog, and rubric
-├── ROADPULSE_PROJECT_DOSSIER.md             # In-depth engineering specifications and algorithm proofs
-├── ROADPULSE_GRAND_PITCH_AND_JURY_DEFENSE.pdf # Official 11-page printable pitch script and Q&A document
+├── README.md                                # Comprehensive system documentation and architecture
 ├── index.html                               # Application HTML entry point with GIGW 3.0 metadata
 ├── package.json                             # Node package definitions and build scripts
 ├── package-lock.json                        # Locked dependency graph
@@ -297,4 +295,4 @@ A comprehensive 12-question defense dossier is documented in the attached master
 * **Target Department:** Public Works Department (PWD), Government of Manipur
 * **Problem Statement:** PWD-03: AI-Based Road Inspection & Maintenance Prioritisation
 * **Official Repository:** https://github.com/haapuchu/roadrank
-* **Documentation Artifact:** ROADPULSE_GRAND_PITCH_AND_JURY_DEFENSE.pdf
+* **Documentation Artifact:** README.md (Comprehensive Technical Specification & Architecture)
