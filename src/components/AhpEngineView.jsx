@@ -115,7 +115,7 @@ export default function AhpEngineView({
               AHP Multi-Factor Prioritisation Engine
             </h2>
             <p style={{ fontSize: '13px', color: '#334155', maxWidth: '900px', marginTop: '4px', lineHeight: 1.5 }}>
-              <strong>Why not just fix the most broken road?</strong> A road with potholes might not be urgent if an alternate highway exists. But a damaged road connecting a <strong>District Hospital</strong> is a critical lifeline! RoadPulse uses Thomas Saaty's proven <strong>Analytic Hierarchy Process (AHP)</strong> to objectively balance road damage with real-world public impact.
+              <strong>Why not just fix the most broken road?</strong> A road with potholes might not be urgent if an alternate highway exists. But a damaged road connecting a <strong>District Hospital</strong> is a critical lifeline! RoadRank uses Thomas Saaty's proven <strong>Analytic Hierarchy Process (AHP)</strong> to objectively balance road damage with real-world public impact.
             </p>
           </div>
 

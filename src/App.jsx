@@ -99,7 +99,7 @@ export default function App() {
   }, []);
 
   return (
-    <div id="roadpulse-app">
+    <div id="roadrank-app">
       {/* 0. OFFICIAL GOVERNMENT OF INDIA & MANIPUR TRICOLOR BAND */}
       <div className="gov-top-tricolor-band" />
 
@@ -191,7 +191,7 @@ export default function App() {
             <div className="gov-dept-title">GOVERNMENT OF MANIPUR</div>
             <div className="gov-subdept-title">Department of Information Technology &amp; Public Works Department</div>
             <div className="gov-portal-heading">
-              <span className="gov-portal-name">ROADPULSE</span>
+              <span className="gov-portal-name">ROADRANK</span>
               <span className="gov-portal-badge">State Decision Support System (SDSS)</span>
             </div>
           </div>

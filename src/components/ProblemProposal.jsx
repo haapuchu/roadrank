@@ -90,7 +90,7 @@ export function ProblemProposal({ onNavigateTab }) {
           lineHeight: 1.3,
           marginBottom: '10px'
         }}>
-          AI-Based Road Inspection & Maintenance Prioritisation (RoadPulse)
+          AI-Based Road Inspection & Maintenance Prioritisation (RoadRank)
         </h1>
 
         <p style={{
@@ -180,7 +180,7 @@ export function ProblemProposal({ onNavigateTab }) {
             </ul>
           </div>
 
-          {/* Right: RoadPulse Solution */}
+          {/* Right: RoadRank Solution */}
           <div style={{
             background: '#f0fdf4',
             border: '1px solid #86efac',
@@ -193,7 +193,7 @@ export function ProblemProposal({ onNavigateTab }) {
             <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
               <CheckCircle2 size={18} style={{ color: '#15803d' }} />
               <h3 style={{ fontSize: '14.5px', fontWeight: 800, color: '#166534' }}>
-                ROADPULSE SOLUTION: MULTI-CRITERIA DECISION INTELLIGENCE
+                ROADRANK SOLUTION: MULTI-CRITERIA DECISION INTELLIGENCE
               </h3>
             </div>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: 10, fontSize: '12.5px', color: '#334155' }}>
@@ -225,7 +225,7 @@ export function ProblemProposal({ onNavigateTab }) {
         <div style={{ marginBottom: 16 }}>
           <h2 style={{ fontSize: '17px', fontWeight: 800, color: '#0b3c5d', display: 'flex', alignItems: 'center', gap: 8 }}>
             <Layers size={18} style={{ color: '#0284c7' }} />
-            How RoadPulse Works: The 4-Step Decision Pipeline
+            How RoadRank Works: The 4-Step Decision Pipeline
           </h2>
           <p style={{ fontSize: '12px', color: '#64748b', marginTop: 2 }}>
             Judges can test each step in order or jump directly to any stage below:
@@ -325,7 +325,7 @@ export function ProblemProposal({ onNavigateTab }) {
                 Smart Budget Allocator
               </h3>
               <p style={{ fontSize: '12px', color: '#475569', lineHeight: 1.5, marginBottom: 14 }}>
-                Move the budget slider (e.g. ₹15 Cr) and watch RoadPulse automatically select the optimal mix of roads to fund, maximizing public safety and preventing costly damage.
+                Move the budget slider (e.g. ₹15 Cr) and watch RoadRank automatically select the optimal mix of roads to fund, maximizing public safety and preventing costly damage.
               </p>
             </div>
             <button
@@ -375,7 +375,7 @@ export function ProblemProposal({ onNavigateTab }) {
         </div>
       </div>
 
-      {/* 4. THE 3 CORE PILLARS OF ROADPULSE GOVTECH ARCHITECTURE */}
+      {/* 4. THE 3 CORE PILLARS OF ROADRANK GOVTECH ARCHITECTURE */}
       <div style={{
         background: '#ffffff',
         border: '1px solid #cbd5e1',
@@ -385,7 +385,7 @@ export function ProblemProposal({ onNavigateTab }) {
       }}>
         <h2 style={{ fontSize: '17px', fontWeight: 800, color: '#0b3c5d', marginBottom: '14px', display: 'flex', alignItems: 'center', gap: 8 }}>
           <Landmark size={18} style={{ color: '#0b3c5d' }} />
-          Institutional Mandate: The 3 Core Pillars of RoadPulse Architecture
+          Institutional Mandate: The 3 Core Pillars of RoadRank Architecture
         </h2>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 14 }}>

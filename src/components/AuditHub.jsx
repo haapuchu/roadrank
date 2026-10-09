@@ -136,7 +136,7 @@ export default function AuditHub({ rankedRoads, auditLog, onAddAuditLog, onSelec
               Statutory Governance &amp; Vigilance Audit Trail
             </h2>
             <p style={{ fontSize: '13px', color: '#334155', maxWidth: '900px', marginTop: '4px', lineHeight: 1.5 }}>
-              In public works, an AI recommendation is useless if an Executive Engineer cannot defend it during a <strong>CAG (Comptroller &amp; Auditor General)</strong> audit. RoadPulse records every AHP score, budget approval, and manual override with an immutable SHA-256 cryptographic hash and mandatory written justification under <strong>GFR-2017 Rule 144</strong>.
+              In public works, an AI recommendation is useless if an Executive Engineer cannot defend it during a <strong>CAG (Comptroller &amp; Auditor General)</strong> audit. RoadRank records every AHP score, budget approval, and manual override with an immutable SHA-256 cryptographic hash and mandatory written justification under <strong>GFR-2017 Rule 144</strong>.
             </p>
           </div>
 

@@ -1,4 +1,4 @@
-# ROADPULSE: AI-Assisted Road Inspection & Maintenance Prioritisation System
+# ROADRANK: AI-Assisted Road Inspection & Maintenance Prioritisation System
 
 **State Decision Support System (SDSS) for Road Infrastructure Asset Management**  
 **Government of Manipur | Department of Information Technology & Public Works Department**  
@@ -10,11 +10,11 @@
 
 ## 1. Executive Summary
 
-RoadPulse is an enterprise-grade infrastructure decision intelligence platform engineered for the Public Works Department (PWD), Government of Manipur. It transitions road maintenance governance from reactive, complaint-driven patchwork to an objective, mathematically defensible, and consequence-aware capital allocation system.
+RoadRank is an enterprise-grade infrastructure decision intelligence platform engineered for the Public Works Department (PWD), Government of Manipur. It transitions road maintenance governance from reactive, complaint-driven patchwork to an objective, mathematically defensible, and consequence-aware capital allocation system.
 
 Traditional pavement management workflows prioritize interventions almost exclusively by visible physical degradation (e.g., repairing roads that display the highest concentration of potholes). In hilly and monsoon-affected geographies such as Manipur, this approach leads to misallocation of scarce capital expenditure. A severely deteriorated downtown commercial road with multiple parallel paved bypass corridors creates commuter inconvenience; conversely, a moderately cracked single-access foothill arterial road serves as the sole lifeline connecting entire populations to district hospitals, schools, and essential supply chains. If that single lifeline fails during peak monsoon precipitation, catastrophic socio-economic and medical isolation ensues.
 
-RoadPulse resolves this governance challenge through a strict institutional operating principle:
+RoadRank resolves this governance challenge through a strict institutional operating principle:
 
 ```
 [ AI FOR PERCEPTION ]  -->  [ ALGORITHMS FOR OPTIMIZATION ]  -->  [ HUMANS FOR ACCOUNTABILITY ]
@@ -34,7 +34,7 @@ The Department of Information Technology (DIT) and the Public Works Department (
 > "Develop an AI-based system that analyses road images, road condition, traffic, connectivity, previous maintenance, and other relevant data to identify defects and support maintenance prioritisation."
 
 ### 2.2 Trilateral Evaluation Alignment
-RoadPulse is architected to address all three dimensions of the official Trilateral Grand Jury Evaluation Rubric:
+RoadRank is architected to address all three dimensions of the official Trilateral Grand Jury Evaluation Rubric:
 
 1. **Technical Trust (35% Weightage):** Deterministic multi-criteria decision modeling (Saaty AHP) eliminating Large Language Model (LLM) hallucinations; quantized CPU inference under 150 ms; rigorous mathematical transitivity verification; full offline capability.
 2. **Government Relevance (30% Weightage):** Direct alignment with PWD manual practices and GFR-2017 Rule 144; preservation of critical healthcare lifelines; dynamic monsoon deterioration acceleration modeling (+60%); mandatory statutory justification logging for executive overrides.
@@ -98,7 +98,7 @@ To ensure administrative and legal defensibility, priority scores are derived us
 ---
 
 ### 3.5 Fiscal Capital Allocation: GFR-2017 Knapsack Optimization
-RoadPulse translates engineering priority scores into executable public works sanction lists under real-world budgetary ceilings.
+RoadRank translates engineering priority scores into executable public works sanction lists under real-world budgetary ceilings.
 
 ![Smart Budget Allocator](./pitch_assets/scene5_budget_allocator.png)
 
@@ -135,6 +135,17 @@ An executive dashboard provides departmental leadership with macro-level insight
 
 * **Key Performance Indicators:** Total network length (km), at-risk asset proportion, capital required versus capital allocated, and public utility index (residents protected per INR 1 Crore spent).
 * **Condition Distribution:** Real-time categorical classification across Good (RHI >= 80), Fair (60 <= RHI < 80), Poor (40 <= RHI < 60), and Critical (RHI < 40) assets.
+
+---
+
+### 3.8 Field Engineering & Mobile-First Optimization
+To support Junior Engineers conducting on-site pavement condition inspections and executive reviews in the field across diverse districts of Manipur, RoadRank features a responsive viewport architecture optimized for mobile devices and tablets:
+
+![Mobile Interface and Field Viewport](./pitch_assets/mobile_preview.png)
+
+* **Zero-Overflow Mobile Viewport:** Fluid layout containment eliminating horizontal scroll errors across standard mobile viewports (360px to 480px) and tablet resolutions (768px to 1024px).
+* **Touch-Friendly Controls:** Horizontally scrollable navigation tabs, collapsible single-column analytical grids, and responsive data tables with native swipe interaction.
+* **Field Accessibility:** Full access to road health indices, AHP weighting sliders, dynamic knapsack budget calculators, and SHA-256 audit ledger verification directly from field smartphones.
 
 ---
 
@@ -196,7 +207,7 @@ Benefit_Cost_Ratio (BCR)   = (Avoided_Escalation + Economic_Lifeline_Value) / Ca
 ## 6. Directory Structure
 
 ```
-roadpulse/
+roadrank/
 ├── README.md                                # Comprehensive system documentation and architecture
 ├── index.html                               # Application HTML entry point with GIGW 3.0 metadata
 ├── package.json                             # Node package definitions and build scripts
@@ -205,12 +216,12 @@ roadpulse/
 ├── .gitignore                               # Git exclusion definitions
 ├── pitch_assets/                            # High-resolution screenshots and presentation assets
 │   ├── manipur_emblem.png                   # Official Government of Manipur emblem
-│   ├── roadpulse_pitch_and_defense.html     # Interactive teleprompter and pitch documentation
 │   ├── scene1_problem_solution.png          # Overview & mandate screen
 │   ├── scene2_gis_map.png                   # GIS spatial network screen
 │   ├── scene3_road_dossier.png              # Corridor digital twin modal
 │   ├── scene4_ahp_prioritisation.png        # Thomas Saaty AHP engine screen
 │   ├── scene5_budget_allocator.png          # Smart budget allocator screen
+│   ├── mobile_preview.png                   # Mobile viewport and field interface screen
 │   ├── scene6_sanctions_audit.png           # Sanctions and CAG audit hub screen
 │   └── scene7_analytics_dashboard.png       # Executive command center screen
 ├── public/                                  # Static assets served by web server
@@ -281,9 +292,9 @@ A comprehensive 12-question defense dossier is documented in the attached master
 * **Why Severity != Priority?**  
   A severely damaged downtown road with multiple alternative routes creates traffic delays, but a moderately damaged single-access foothill road serves as the sole lifeline to hospitals and schools. Inaction on the lifeline risks catastrophic community isolation during monsoon washouts.
 * **Can 2D Cameras Measure Subsurface Failure?**  
-  No. 2D computer vision is strictly an initial screening tool. RoadPulse enforces an engineering rule: whenever fatigue cracking exceeds 15% per kilometer, the asset is automatically flagged for mandatory Benkelman beam deflection testing and field coring before funds sanction.
+  No. 2D computer vision is strictly an initial screening tool. RoadRank enforces an engineering rule: whenever fatigue cracking exceeds 15% per kilometer, the asset is automatically flagged for mandatory Benkelman beam deflection testing and field coring before funds sanction.
 * **How Does the System Function Offline in Hill Districts?**  
-  RoadPulse is architected offline-first. Field surveys and local scoring run in client-side storage without active cellular connectivity, performing cryptographically validated synchronization once broadband access is restored at divisional headquarters.
+  RoadRank is architected offline-first. Field surveys and local scoring run in client-side storage without active cellular connectivity, performing cryptographically validated synchronization once broadband access is restored at divisional headquarters.
 
 ---
 

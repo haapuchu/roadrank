@@ -91,7 +91,7 @@ export default function BudgetOptimizer({ rankedRoads, isMonsoon, onSelectRoad, 
               Smart Budget Allocator (GFR-2017 Rule 144)
             </h2>
             <p style={{ fontSize: '13px', color: '#334155', maxWidth: '900px', marginTop: '4px', lineHeight: 1.5 }}>
-              The state cannot afford to repair all 60 roads at once (Total needed: ₹38.0 Cr). With a fixed budget envelope (e.g. ₹15.0 Cr), RoadPulse automatically picks the exact combination of roads that <strong>protects the most citizens</strong> and <strong>saves ₹11.2 Cr in future reconstruction costs</strong>.
+              The state cannot afford to repair all 60 roads at once (Total needed: ₹38.0 Cr). With a fixed budget envelope (e.g. ₹15.0 Cr), RoadRank automatically picks the exact combination of roads that <strong>protects the most citizens</strong> and <strong>saves ₹11.2 Cr in future reconstruction costs</strong>.
             </p>
           </div>
 

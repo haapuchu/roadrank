@@ -1,5 +1,5 @@
 // ============================================================
-// ROADPULSE - AHP Engine (Analytic Hierarchy Process)
+// ROADRANK - AHP Engine (Analytic Hierarchy Process)
 // Implements full eigenvector-based AHP with consistency check
 // ============================================================
 

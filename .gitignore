@@ -27,6 +27,7 @@ dist-ssr
 # Scratch and temporary scripts
 *.bat
 *.cjs
+*.pdf
 scratch_edge_profile/
 mantripukhri_osm.json
 real_coords.json
@@ -38,3 +39,5 @@ govtech_*.png
 map_*.png
 current_look.png
 test1.png
+
+.vercel
