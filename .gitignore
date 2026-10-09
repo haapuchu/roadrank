@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and build output
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Scratch and temporary scripts
+*.bat
+*.cjs
+scratch_edge_profile/
+mantripukhri_osm.json
+real_coords.json
+
+# Scratch root preview images (all curated screenshots are in pitch_assets/)
+preview_*.png
+nic_*.png
+govtech_*.png
+map_*.png
+current_look.png
+test1.png
